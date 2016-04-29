@@ -1,6 +1,15 @@
 # finomena
 Kaggle: BNP Paribas Cardif Claims Management
 
+Instructions:
+1. Need to have python SciPy stack. Use the following command to get it:
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+2. Need Python 64-bit
+3. Run from the command line using 'python trees.py'
+4. The train.csv & test.csv file should be in the same directory as the trees.py file
+
+Methodology:
+
 1. Preprocessing of the data was required as it had various alphabetical features
 2. All uninitialised entries were set to 0
 3. All alphabetical variables were converted to corresponding integers
